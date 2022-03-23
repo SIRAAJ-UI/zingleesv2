@@ -1,0 +1,266 @@
+body {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.__link{
+    font-size: 14.5px ;
+    color:#000;
+    font-family: 'Poppins Regular', sans-serif;
+
+}
+
+.nav-link{
+    font-size: 14.5px ;
+    font-weight: 400;
+    color:#000000;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+.bg-home {
+    background-color:#FEF1EB;
+}
+
+.home-caption-label {
+    font-size: 39px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 42px;
+}
+
+
+.btn-primary {
+    background-color: #F26725;
+    font-size: 15px;
+}
+
+.text-layer {
+    font-size: 15px;
+    font-family: 'Poppins Regular', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #f19469;
+}
+
+.btn-primary:active {
+    background-color: #f19469;
+}
+
+.card-title-bold{
+    font-size: 23px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 30px;
+}
+
+.card-link-orange{
+    font-size: 16px;
+    color:#F26725;
+
+}
+.card-link-orange:hover{
+    font-size: 16px;
+    color:#f5986d;
+}
+
+.section-heading{
+    font-size: 33px;
+    font-family: 'Poppins Semibold', sans-serif;
+}
+
+.brush-container{
+    position:relative;
+    
+}
+
+.brush-container img {
+    position: absolute;
+    right:5px;
+    top: 5px;
+}
+
+.text-content{
+    font-size: 15px;
+    font-family: 'Poppins Regular', sans-serif;
+    opacity: .5;
+    padding: 10px 50px;
+}
+
+.card-footer-padding{
+    padding: 0.75rem 1.25rem;
+}
+
+.shadow-sm{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+
+.heading-count{
+    font-size: 49px;
+    color:#F26725;
+
+}
+
+.card-semi-bold-heading{
+    font-size: 23px;
+    font-family: 'Poppins Semibold', sans-serif;
+}
+
+.call-us-bg {
+
+    background-image: url("./images/call-us-bg.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 482px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color:white;
+}
+
+.call-us-card-bg{
+    background-image: url("./images/call-us-card-bg.png"); /* The image used */
+    width: 351px; /* You must set a specified height */
+    height: 361px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding:30px;
+    padding-top:40px;
+}
+
+.call-us-heading{
+    font-size: 22px;
+    font-family: 'Poppins Semibold', sans-serif;
+}
+
+.p-text {
+    font-size: 14px;
+    font-family: 'Poppins Regular', sans-serif;
+}
+
+.slider-header {
+    font-size: 25px;
+    font-family: 'Poppins Semibold', sans-serif;
+}
+
+.slider-content{
+    font-size: 16px;
+    font-family: 'Poppins Regular', sans-serif;
+}
+
+.color-orange{
+    color:#F26725;
+}
+
+.bg-circle-right{
+    background-image: url("./images/bg-cirle-right.png"); /* The image used */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: right bottom;
+  
+}
+
+.footer-bg{
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding:1.5rem;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-family: 'Poppins Regular', sans-serif;
+}
+.why-sub-header {
+    font-size: 20px;
+    font-family: 'Poppins Medium', sans-serif;
+}
+.footer-list{
+    font-size: 15px;
+    font-family: 'Poppins Regular', sans-serif;
+}
+
+
+.footer-info{
+    font-size: 13px;
+    font-family: 'Poppins Regular', sans-serif;
+    opacity: .5;
+}
+
+.breadcrum-aboutus{
+
+}
+
+.about-us{
+    font-size: 23px;
+    font-family: 'Poppins Semibold', sans-serif;
+}
+
+.orange-container {
+    background-color: #FEF1EB;
+    padding:20px;
+    font-size: 15px;;
+    border-left: 3px solid #F26725;
+}
+
+.what-we-offer-banner{
+    background-image: url("./images/what-we-offer-bg.png"); /* The image used */
+    background-repeat: repeat-x; /* Do not repeat the image */
+    width: 100%;
+    height:341px;
+    padding:80px;
+    background-color: #f9f9f99e;
+}
+
+.common-banner-bg{
+    background-image: url("./images/top-gradient.png"); /* The image used */
+    background-repeat: repeat-x; /* Do not repeat the image */
+    width: 100%;
+    height: 50px;
+}
+
+.about-us-header-bg{
+    height:100px;
+}
+
+
+.support-bg {
+    background-image: url("./images/support-bg.png"); /* The image used */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    width: 100%;
+    height: 300px;
+    background-color: #F6F6F6;
+}
+
+.contact-us-bg{
+    background-image: url("./images/contact-us-bg.png"); /* The image used */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.contact-us-heading{
+    font-size: 17.5px;
+    font-family: 'Poppins Semibold', sans-serif;
+}
+
+.pp-4 {
+    padding:25px;
+}
