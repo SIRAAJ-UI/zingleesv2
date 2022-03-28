@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,66 +17,71 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row p-2">
-            <div class="col-sm-8 d-flex align-items-center">
-                <div class="mr-2 d-none d-sm-none d-md-block d-lg-block d-xl-block">HAVE ANY QUESTION</div>
-                <div class="ml-2 mr-2">
-                    <img width="10px" src="./images/mobile-solid.png" alt="">
-                    +91 8553 111 444
+        <div id="navbar-sticky">
+            <div class="row p-2">
+                <div class="col-sm-8 d-flex align-items-center">
+                    <div class="mr-2 d-none d-sm-none d-md-block d-lg-block d-xl-block">HAVE ANY QUESTION</div>
+                    <div class="ml-2 mr-2">
+                        <img width="10px" src="./images/mobile-solid.png" alt="">
+                        +91 8553 111 444
+                    </div>
+                    <img class="mr-4 ml-4" src="./images/line-between.png" alt="">
+                    <div class="mr-2">
+                        <img width="14px" src="./images/envelope-open.png" alt="">
+                        info@zinglees.com
+                    </div>
                 </div>
-                <img class="mr-4 ml-4" src="./images/line-between.png" alt="">
-                <div class="mr-2">
-                    <img width="14px" src="./images/envelope-open.png" alt="">
-                    info@zinglees.com
+                <div class="col-sm-4 d-flex justify-content-end">
+                    <!-- <div class="__link">REGISTER</div>
+                    <img class="mr-4 ml-4" src="./images/line-between.png" alt=""> -->
+                    <div class="__link">
+                        <a href="https://zinglearning.com">LOGIN</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-4 d-flex justify-content-end">
-                <!-- <div class="__link">REGISTER</div>
-                <img class="mr-4 ml-4" src="./images/line-between.png" alt=""> -->
-                <div class="__link">
-                    <a href="https://zinglearning.com">LOGIN</a>
+            <hr class="m-2" />
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <a href="#">
+                    <img src="./images/Zinglees-Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" style="height:95px;" id="navbarSupportedContent">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item ">
+                            <a class="nav-link _link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link _link" href="about-us.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link _link" href="why-us.html">Why Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link _link" href="what-we-offer.html">What We Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link _link" href="contact-us.html">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="form-group has-search">
+                                <span class="fa fa-search form-control-feedback"></span>
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+            </nav>
         </div>
-        <hr class="m-2" />
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a href="#">
-                <img src="./images/Zinglees-Logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" style="height:95px;" id="navbarSupportedContent">
-                <div class="mr-auto"></div>
-                <ul class="navbar-nav ">
-                    <li class="nav-item ">
-                        <a class="nav-link _link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link _link" href="about-us.html">About Us</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link _link" href="why-us.html">Why Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link _link" href="what-we-offer.html">What We Offer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link _link" href="contact-us.html">Contact Us</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <div class="form-group has-search">
-                            <span class="fa fa-search form-control-feedback"></span>
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
+        <!-- Full Page Image Header with Vertically Centered Content -->
+        <header class="animate__animated animate__fadeIn">
+            <img src="./images/banner/about-us.png" style="width:100%" alt="">
+        </header>
         <section class="common-banner-bg about-us-header-bg" style="padding:40px">
             <div >
                 <div class="about-us">About Us</div>
@@ -161,11 +167,18 @@
             </div>
             <div class="col-sm-2">
                 <p class="footer-title">Company</p>
-                <p class="footer-list">Why Us</p>
-                <p class="footer-list">About Us</p>
-                <p class="footer-list">What We Offer</p>
-                <p class="footer-list">FAQ`s</p>
-                <p class="footer-list">Career</p>
+                <p>
+                    <a class="footer-list" href="about-us.html">About Us</a>
+                </p>
+                <p>
+                    <a class="footer-list" href="why-us.html">Why Us</a>
+                </p>
+                <p>
+                    <a class="footer-list" href="what-we-offer.html">What We Offer</a>
+                </p>
+                <p>
+                    <a class="footer-list" href="contact-Us.html">Contact us</a>
+                </p>
             </div>
             <div class="col-sm-2">
                 <p class="footer-title">Platform</p>
@@ -197,6 +210,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        <script>
+            window.onscroll = function() {getMyStickyHeader()};
+            var navbar = document.getElementById("navbar-sticky");
+            var stickyHeader = navbar.offsetTop + 200;
+            function getMyStickyHeader() {
+            if (window.pageYOffset >= stickyHeader) {
+            navbar.classList.add("stickyHeader")
+            } else {
+            navbar.classList.remove("stickyHeader");
+            }
+            }
+        </script>
 </body>
 
 </html>
